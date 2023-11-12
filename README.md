@@ -16,6 +16,13 @@ Participants will have the opportunity to work with real outfits curated by styl
 This project is based on create a app (https://mangodatathon2023.streamlit.app/) that shows new outfits based on the known outfits that mango consider has good. The idea is that when the user picks a clothes we show appropiate outfits that match with this clothes.
 
 ## Code 
-
+   /dataset: Have the base dataset need for run the code. Need to add the images that you can find in the zip.
+   /src/Data_generator.ipynb: Have the code to preprocess the data
+   /src/Main.ipynb: Have the code that load the pickle and the data and shows outfits and recomendations base on it.
+   /src/generate_oufits.py: Have the code of the functions which create more outfits and the find the recomendations based on the graph
+   /src/my_graph.pickle: Have the pickle which has the graph of the outfits
+   /src/outfit_cleaning.py: Have the preprocessing functions
+   /src/show_oimages.py: Have the preprocessing functions for show single clothes or full outfits
+   /src/outfit.csv: have the final outfits that we have created.
 
 

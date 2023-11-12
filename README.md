@@ -44,6 +44,6 @@ Run Main.ipynb to load the processed data and start generating outfit recommenda
 Explore the app by selecting clothing items, and the app will display matching outfit suggestions.
 
 ## App Demo
-You can access the live demo of the Outfit Recommendation App here.
+You can access the live demo of the Outfit Recommendation App here (https://mangodatathon2023.streamlit.app/).
 
 

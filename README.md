@@ -13,24 +13,37 @@ Participants will have the opportunity to work with real outfits curated by styl
 
 
 ## Project
-This project is based on create a app (https://mangodatathon2023.streamlit.app/) that shows new outfits based on the known outfits that mango consider has good. The idea is that when the user picks a clothes we show appropiate outfits that match with this clothes.
+The Outfit Recommendation App is designed to help users discover new outfit combinations based on Mango's curated collection of stylish outfits. When a user selects a clothing item, the app generates and displays suitable outfits that complement the chosen piece, making it easier to put together fashionable looks.
 
-## Code 
+## Code Structure
+### /dataset
+This directory contains the essential dataset required to run the code. To complete the setup, you need to add the images, which are available in a separate zip file.
 
-   /dataset: Have the base dataset need for run the code. Need to add the images that you can find in the zip.
-   
-   /src/Data_generator.ipynb: Have the code to preprocess the data
-   
-   /src/Main.ipynb: Have the code that load the pickle and the data and shows outfits and recomendations base on it.
-   
-   /src/generate_oufits.py: Have the code of the functions which create more outfits and the find the recomendations based on the graph
-   
-   /src/my_graph.pickle: Have the pickle which has the graph of the outfits
-   
-   /src/outfit_cleaning.py: Have the preprocessing functions
-   
-   /src/show_oimages.py: Have the preprocessing functions for show single clothes or full outfits
-   
-   /src/outfit.csv: have the final outfits that we have created.
+### /src
+Data_generator.ipynb: This Jupyter Notebook contains the code responsible for preprocessing the dataset. It prepares the data for subsequent steps in the project.
+
+Main.ipynb: In this Jupyter Notebook, you'll find the code responsible for loading the processed data from pickles and generating outfit recommendations based on it.
+
+generate_outfits.py: This script houses the functions responsible for creating new outfits and finding recommendations based on the outfit graph.
+
+my_graph.pickle: This pickle file contains the serialized outfit graph, which is a crucial component for generating recommendations.
+
+outfit_cleaning.py: This script includes preprocessing functions used to clean and format the outfit data.
+
+show_images.py: Here, you'll find functions related to displaying individual clothing items or complete outfits.
+
+outfit.csv: This CSV file contains the final outfit recommendations that have been created through the project's processes.
+
+## Usage
+Ensure you have the necessary dataset files and images in the /dataset directory.
+
+Use Data_generator.ipynb to preprocess the dataset.
+
+Run Main.ipynb to load the processed data and start generating outfit recommendations.
+
+Explore the app by selecting clothing items, and the app will display matching outfit suggestions.
+
+## App Demo
+You can access the live demo of the Outfit Recommendation App here.
 
 
